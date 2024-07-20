@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{68e10a2f-7e90-4b92-b3c0-3673c2b687ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ManagerClass">
+      <UniqueIdentifier>{211e2edf-691b-4aaf-bc62-2d10b70f90dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Enemy">
+      <UniqueIdentifier>{4fd83512-a207-4f15-9fba-f653e163fa45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Player">
+      <UniqueIdentifier>{401893d3-3b3e-4265-b98c-4709feb1a4fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Map">
+      <UniqueIdentifier>{11b87fff-3781-4558-9ea7-c1879eaecc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Math">
+      <UniqueIdentifier>{ed025053-7bff-459b-b831-4160e2cb0c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\BaseClass">
+      <UniqueIdentifier>{52768b10-5da2-4ecd-85e2-0604c08270e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Scene">
+      <UniqueIdentifier>{36ea8b10-b02e-4ee8-83f3-9e14023f2035}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Text">
+      <UniqueIdentifier>{ed1516e5-3e5d-4aa9-a9bd-bde4e7a9fb8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Collider">
+      <UniqueIdentifier>{b36ed818-13e4-4349-ac87-546d1f3707b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\GameSystem">
+      <UniqueIdentifier>{126bf6d8-8b75-47d5-903e-6449b5756bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Color">
+      <UniqueIdentifier>{bb2f7020-2363-4fb9-ba83-4a070af047e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Frame">
+      <UniqueIdentifier>{3114e371-1850-4cbc-af34-a85072b92212}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Enemy\Enemy.cpp">
+      <Filter>src\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\FPSController.cpp">
+      <Filter>src\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\GameMaster.cpp">
+      <Filter>src\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameSystem\MainLoop.cpp">
+      <Filter>src\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagerClass\MapManager.cpp">
+      <Filter>src\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagerClass\ObjectManager.cpp">
+      <Filter>src\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\Exit.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map\Map.cpp">
+      <Filter>src\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Methods.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Vector.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\Player.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player\View.cpp">
+      <Filter>src\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ManagerClass\ColliderManager.cpp">
+      <Filter>src\ManagerClass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseClass\ColliderBase.cpp">
+      <Filter>src\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BaseClass\ExitBase.cpp">
+      <Filter>src\BaseClass</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Math\Ray2.cpp">
+      <Filter>src\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Frame\Frame.cpp">
+      <Filter>src\Frame</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider\LineCollider.cpp">
+      <Filter>src\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text\GameText.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Text\TextStatus.cpp">
+      <Filter>src\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Collider\CircleCollider.cpp">
+      <Filter>src\Collider</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\PlayScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\TitleScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene\ResultScene.cpp">
+      <Filter>src\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Color\Color.cpp">
+      <Filter>src\Color</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\BaseClass\ObjectBase.h">
+      <Filter>src\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy\Enemy.h">
+      <Filter>src\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\FPSController.h">
+      <Filter>src\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameSystem\GameMaster.h">
+      <Filter>src\GameSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ManagerClass\MapManager.h">
+      <Filter>src\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ManagerClass\ObjectManager.h">
+      <Filter>src\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\Exit.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map\Map.h">
+      <Filter>src\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Methods.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Vector.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\Player.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player\View.h">
+      <Filter>src\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ManagerClass\ColliderManager.h">
+      <Filter>src\ManagerClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseClass\ColliderBase.h">
+      <Filter>src\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseClass\ExitBase.h">
+      <Filter>src\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Math\Ray2.h">
+      <Filter>src\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BaseClass\SceneBase.h">
+      <Filter>src\BaseClass</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Color\Color.h">
+      <Filter>src\Color</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Frame\Frame.h">
+      <Filter>src\Frame</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collider\LineCollider.h">
+      <Filter>src\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\GameText.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Text\TextStatus.h">
+      <Filter>src\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\TitleScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Collider\CircleCollider.h">
+      <Filter>src\Collider</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\PlayScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene\ResultScene.h">
+      <Filter>src\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
